@@ -11,9 +11,9 @@
 NSString *const kServerBaseURL = @"https://api.parse.com";
 NSString *const kServerAPIPath = @"/1/classes/";
 NSString *const kApplicationIDKey = @"X-Parse-Application-Id";
-NSString *const kApplicationIDValue = @"";
+NSString *const kApplicationIDValue = @"teq8EFySNsOtDtLuPHv6fUm1zm9LuGi67HKQVGyJ";
 NSString *const kRestAPIKey = @"X-Parse-REST-API-Key";
-NSString *const kRestAPIValue = @"";
+NSString *const kRestAPIValue = @"M0dXYLxQE8rBJzsnMB7bwDfUsJjWy9u2UN0Y470J";
 
 @implementation Constants
 

@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B598F7E1A41A09100252CB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B598F7D1A41A09100252CB0 /* main.m */; };
+		0B598F811A41A09100252CB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B598F801A41A09100252CB0 /* AppDelegate.m */; };
+		0B598F871A41A09100252CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B598F851A41A09100252CB0 /* Main.storyboard */; };
+		0B598F891A41A09100252CB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B598F881A41A09100252CB0 /* Images.xcassets */; };
+		0B598F8C1A41A09100252CB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B598F8A1A41A09100252CB0 /* LaunchScreen.xib */; };
+		0B598F981A41A09100252CB0 /* SyncDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B598F971A41A09100252CB0 /* SyncDemoTests.m */; };
+		0B598FA41A41A25C00252CB0 /* Holiday.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B598FA31A41A25C00252CB0 /* Holiday.m */; };
+		0B598FE11A41A3C500252CB0 /* HolidaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B598FE01A41A3C500252CB0 /* HolidaysViewController.m */; };
+		0B598FE41A41A69A00252CB0 /* AddHolidayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B598FE31A41A69A00252CB0 /* AddHolidayViewController.m */; };
+		0B598FEB1A41B07900252CB0 /* HolidayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B598FEA1A41B07900252CB0 /* HolidayTableViewCell.m */; };
+		0B6B11A11A467CFD00555337 /* NSFNanoEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B117A1A467CFD00555337 /* NSFNanoEngine.m */; };
+		0B6B11A21A467CFD00555337 /* NSFNanoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B117C1A467CFD00555337 /* NSFNanoResult.m */; };
+		0B6B11A31A467CFD00555337 /* NSFOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B117E1A467CFD00555337 /* NSFOrderedDictionary.m */; };
+		0B6B11A41A467CFD00555337 /* NSFNanoBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B118D1A467CFD00555337 /* NSFNanoBag.m */; };
+		0B6B11A51A467CFD00555337 /* NSFNanoExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B118F1A467CFD00555337 /* NSFNanoExpression.m */; };
+		0B6B11A61A467CFD00555337 /* NSFNanoGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B11911A467CFD00555337 /* NSFNanoGlobals.m */; };
+		0B6B11A71A467CFD00555337 /* NSFNanoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B11931A467CFD00555337 /* NSFNanoObject.m */; };
+		0B6B11A81A467CFD00555337 /* NSFNanoPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B11961A467CFD00555337 /* NSFNanoPredicate.m */; };
+		0B6B11A91A467CFD00555337 /* NSFNanoSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B11981A467CFD00555337 /* NSFNanoSearch.m */; };
+		0B6B11AA1A467CFD00555337 /* NSFNanoSortDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B119A1A467CFD00555337 /* NSFNanoSortDescriptor.m */; };
+		0B6B11AB1A467CFD00555337 /* NSFNanoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B119C1A467CFD00555337 /* NSFNanoStore.m */; };
+		0B6B11AC1A467CFD00555337 /* NSFNanoStoreQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B119E1A467CFD00555337 /* NSFNanoStoreQueue.m */; };
+		0B6B11AD1A467CFD00555337 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0B6B119F1A467CFD00555337 /* LICENSE */; };
+		0B6B11AE1A467CFD00555337 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B11A01A467CFD00555337 /* README.md */; };
+		0BC002ED1A45232E00C8F383 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC002EC1A45232E00C8F383 /* DismissSegue.m */; };
+		0BC002F01A45239400C8F383 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC002EF1A45239400C8F383 /* Constants.m */; };
+		0BC0032D1A45297100C8F383 /* HolidayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0032C1A45297100C8F383 /* HolidayHelper.m */; };
+		65F29A25E71F870F7DB8BF85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44185D19B9C6CF064782555A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B598F921A41A09100252CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B598F701A41A09100252CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B598F771A41A09100252CB0;
+			remoteInfo = SyncDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B598F781A41A09100252CB0 /* SyncDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B598F7C1A41A09100252CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B598F7D1A41A09100252CB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B598F7F1A41A09100252CB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B598F801A41A09100252CB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B598F861A41A09100252CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B598F881A41A09100252CB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B598F8B1A41A09100252CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0B598F911A41A09100252CB0 /* SyncDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B598F961A41A09100252CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B598F971A41A09100252CB0 /* SyncDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncDemoTests.m; sourceTree = "<group>"; };
+		0B598FA21A41A25C00252CB0 /* Holiday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Holiday.h; sourceTree = "<group>"; };
+		0B598FA31A41A25C00252CB0 /* Holiday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Holiday.m; sourceTree = "<group>"; };
+		0B598FDF1A41A3C500252CB0 /* HolidaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidaysViewController.h; sourceTree = "<group>"; };
+		0B598FE01A41A3C500252CB0 /* HolidaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolidaysViewController.m; sourceTree = "<group>"; };
+		0B598FE21A41A69A00252CB0 /* AddHolidayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddHolidayViewController.h; sourceTree = "<group>"; };
+		0B598FE31A41A69A00252CB0 /* AddHolidayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddHolidayViewController.m; sourceTree = "<group>"; };
+		0B598FE91A41B07900252CB0 /* HolidayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidayTableViewCell.h; sourceTree = "<group>"; };
+		0B598FEA1A41B07900252CB0 /* HolidayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolidayTableViewCell.m; sourceTree = "<group>"; };
+		0B6B11791A467CFD00555337 /* NSFNanoEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoEngine.h; sourceTree = "<group>"; };
+		0B6B117A1A467CFD00555337 /* NSFNanoEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoEngine.m; sourceTree = "<group>"; };
+		0B6B117B1A467CFD00555337 /* NSFNanoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoResult.h; sourceTree = "<group>"; };
+		0B6B117C1A467CFD00555337 /* NSFNanoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoResult.m; sourceTree = "<group>"; };
+		0B6B117D1A467CFD00555337 /* NSFOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFOrderedDictionary.h; sourceTree = "<group>"; };
+		0B6B117E1A467CFD00555337 /* NSFOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFOrderedDictionary.m; sourceTree = "<group>"; };
+		0B6B11801A467CFD00555337 /* NanoStore_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NanoStore_Private.h; sourceTree = "<group>"; };
+		0B6B11811A467CFD00555337 /* NSFNanoBag_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoBag_Private.h; sourceTree = "<group>"; };
+		0B6B11821A467CFD00555337 /* NSFNanoEngine_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoEngine_Private.h; sourceTree = "<group>"; };
+		0B6B11831A467CFD00555337 /* NSFNanoExpression_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoExpression_Private.h; sourceTree = "<group>"; };
+		0B6B11841A467CFD00555337 /* NSFNanoGlobals_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoGlobals_Private.h; sourceTree = "<group>"; };
+		0B6B11851A467CFD00555337 /* NSFNanoObject_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoObject_Private.h; sourceTree = "<group>"; };
+		0B6B11861A467CFD00555337 /* NSFNanoPredicate_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoPredicate_Private.h; sourceTree = "<group>"; };
+		0B6B11871A467CFD00555337 /* NSFNanoResult_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoResult_Private.h; sourceTree = "<group>"; };
+		0B6B11881A467CFD00555337 /* NSFNanoSearch_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoSearch_Private.h; sourceTree = "<group>"; };
+		0B6B11891A467CFD00555337 /* NSFNanoStore_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoStore_Private.h; sourceTree = "<group>"; };
+		0B6B118B1A467CFD00555337 /* NanoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NanoStore.h; sourceTree = "<group>"; };
+		0B6B118C1A467CFD00555337 /* NSFNanoBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoBag.h; sourceTree = "<group>"; };
+		0B6B118D1A467CFD00555337 /* NSFNanoBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoBag.m; sourceTree = "<group>"; };
+		0B6B118E1A467CFD00555337 /* NSFNanoExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoExpression.h; sourceTree = "<group>"; };
+		0B6B118F1A467CFD00555337 /* NSFNanoExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoExpression.m; sourceTree = "<group>"; };
+		0B6B11901A467CFD00555337 /* NSFNanoGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoGlobals.h; sourceTree = "<group>"; };
+		0B6B11911A467CFD00555337 /* NSFNanoGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoGlobals.m; sourceTree = "<group>"; };
+		0B6B11921A467CFD00555337 /* NSFNanoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoObject.h; sourceTree = "<group>"; };
+		0B6B11931A467CFD00555337 /* NSFNanoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoObject.m; sourceTree = "<group>"; };
+		0B6B11941A467CFD00555337 /* NSFNanoObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoObjectProtocol.h; sourceTree = "<group>"; };
+		0B6B11951A467CFD00555337 /* NSFNanoPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoPredicate.h; sourceTree = "<group>"; };
+		0B6B11961A467CFD00555337 /* NSFNanoPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoPredicate.m; sourceTree = "<group>"; };
+		0B6B11971A467CFD00555337 /* NSFNanoSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoSearch.h; sourceTree = "<group>"; };
+		0B6B11981A467CFD00555337 /* NSFNanoSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoSearch.m; sourceTree = "<group>"; };
+		0B6B11991A467CFD00555337 /* NSFNanoSortDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoSortDescriptor.h; sourceTree = "<group>"; };
+		0B6B119A1A467CFD00555337 /* NSFNanoSortDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoSortDescriptor.m; sourceTree = "<group>"; };
+		0B6B119B1A467CFD00555337 /* NSFNanoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoStore.h; sourceTree = "<group>"; };
+		0B6B119C1A467CFD00555337 /* NSFNanoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoStore.m; sourceTree = "<group>"; };
+		0B6B119D1A467CFD00555337 /* NSFNanoStoreQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFNanoStoreQueue.h; sourceTree = "<group>"; };
+		0B6B119E1A467CFD00555337 /* NSFNanoStoreQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFNanoStoreQueue.m; sourceTree = "<group>"; };
+		0B6B119F1A467CFD00555337 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0B6B11A01A467CFD00555337 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0BC002EB1A45232E00C8F383 /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
+		0BC002EC1A45232E00C8F383 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissSegue.m; sourceTree = "<group>"; };
+		0BC002EE1A45239400C8F383 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0BC002EF1A45239400C8F383 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		0BC0032B1A45297100C8F383 /* HolidayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidayHelper.h; sourceTree = "<group>"; };
+		0BC0032C1A45297100C8F383 /* HolidayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolidayHelper.m; sourceTree = "<group>"; };
+		41657D0B579AF7A4D51D45BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		44185D19B9C6CF064782555A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		642C53160B38E3D1D20DB832 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B598F751A41A09100252CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F29A25E71F870F7DB8BF85 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B598F8E1A41A09100252CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B598F6F1A41A09100252CB0 = {
+			isa = PBXGroup;
+			children = (
+				0B598F7A1A41A09100252CB0 /* SyncDemo */,
+				0B598F941A41A09100252CB0 /* SyncDemoTests */,
+				0B598F791A41A09100252CB0 /* Products */,
+				EE6EC8DCF4EAFD7FEBA24B60 /* Pods */,
+				DF13AAD9CD10BE87C493377D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B598F791A41A09100252CB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B598F781A41A09100252CB0 /* SyncDemo.app */,
+				0B598F911A41A09100252CB0 /* SyncDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B598F7A1A41A09100252CB0 /* SyncDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0B6B11761A467CFD00555337 /* EasyStore */,
+				0BC0032A1A45296600C8F383 /* Helpers */,
+				0BC002EA1A45232000C8F383 /* Utilities */,
+				0B598FA11A41A24B00252CB0 /* Models */,
+				0B598FE81A41B06B00252CB0 /* Views */,
+				0B598FDE1A41A3AD00252CB0 /* Controllers */,
+				0B598F7F1A41A09100252CB0 /* AppDelegate.h */,
+				0B598F801A41A09100252CB0 /* AppDelegate.m */,
+				0B598F851A41A09100252CB0 /* Main.storyboard */,
+				0B598F881A41A09100252CB0 /* Images.xcassets */,
+				0B598F8A1A41A09100252CB0 /* LaunchScreen.xib */,
+				0B598F7B1A41A09100252CB0 /* Supporting Files */,
+			);
+			path = SyncDemo;
+			sourceTree = "<group>";
+		};
+		0B598F7B1A41A09100252CB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B598F7C1A41A09100252CB0 /* Info.plist */,
+				0B598F7D1A41A09100252CB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B598F941A41A09100252CB0 /* SyncDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B598F971A41A09100252CB0 /* SyncDemoTests.m */,
+				0B598F951A41A09100252CB0 /* Supporting Files */,
+			);
+			path = SyncDemoTests;
+			sourceTree = "<group>";
+		};
+		0B598F951A41A09100252CB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B598F961A41A09100252CB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B598FA11A41A24B00252CB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B598FA21A41A25C00252CB0 /* Holiday.h */,
+				0B598FA31A41A25C00252CB0 /* Holiday.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B598FDE1A41A3AD00252CB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B598FDF1A41A3C500252CB0 /* HolidaysViewController.h */,
+				0B598FE01A41A3C500252CB0 /* HolidaysViewController.m */,
+				0B598FE21A41A69A00252CB0 /* AddHolidayViewController.h */,
+				0B598FE31A41A69A00252CB0 /* AddHolidayViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B598FE81A41B06B00252CB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B598FE91A41B07900252CB0 /* HolidayTableViewCell.h */,
+				0B598FEA1A41B07900252CB0 /* HolidayTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B6B11761A467CFD00555337 /* EasyStore */ = {
+			isa = PBXGroup;
+			children = (
+				0B6B11771A467CFD00555337 /* Classes */,
+				0B6B119F1A467CFD00555337 /* LICENSE */,
+				0B6B11A01A467CFD00555337 /* README.md */,
+			);
+			path = EasyStore;
+			sourceTree = "<group>";
+		};
+		0B6B11771A467CFD00555337 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0B6B11781A467CFD00555337 /* Advanced */,
+				0B6B117F1A467CFD00555337 /* Private */,
+				0B6B118A1A467CFD00555337 /* Public */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0B6B11781A467CFD00555337 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				0B6B11791A467CFD00555337 /* NSFNanoEngine.h */,
+				0B6B117A1A467CFD00555337 /* NSFNanoEngine.m */,
+				0B6B117B1A467CFD00555337 /* NSFNanoResult.h */,
+				0B6B117C1A467CFD00555337 /* NSFNanoResult.m */,
+				0B6B117D1A467CFD00555337 /* NSFOrderedDictionary.h */,
+				0B6B117E1A467CFD00555337 /* NSFOrderedDictionary.m */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		0B6B117F1A467CFD00555337 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				0B6B11801A467CFD00555337 /* NanoStore_Private.h */,
+				0B6B11811A467CFD00555337 /* NSFNanoBag_Private.h */,
+				0B6B11821A467CFD00555337 /* NSFNanoEngine_Private.h */,
+				0B6B11831A467CFD00555337 /* NSFNanoExpression_Private.h */,
+				0B6B11841A467CFD00555337 /* NSFNanoGlobals_Private.h */,
+				0B6B11851A467CFD00555337 /* NSFNanoObject_Private.h */,
+				0B6B11861A467CFD00555337 /* NSFNanoPredicate_Private.h */,
+				0B6B11871A467CFD00555337 /* NSFNanoResult_Private.h */,
+				0B6B11881A467CFD00555337 /* NSFNanoSearch_Private.h */,
+				0B6B11891A467CFD00555337 /* NSFNanoStore_Private.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0B6B118A1A467CFD00555337 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				0B6B118B1A467CFD00555337 /* NanoStore.h */,
+				0B6B118C1A467CFD00555337 /* NSFNanoBag.h */,
+				0B6B118D1A467CFD00555337 /* NSFNanoBag.m */,
+				0B6B118E1A467CFD00555337 /* NSFNanoExpression.h */,
+				0B6B118F1A467CFD00555337 /* NSFNanoExpression.m */,
+				0B6B11901A467CFD00555337 /* NSFNanoGlobals.h */,
+				0B6B11911A467CFD00555337 /* NSFNanoGlobals.m */,
+				0B6B11921A467CFD00555337 /* NSFNanoObject.h */,
+				0B6B11931A467CFD00555337 /* NSFNanoObject.m */,
+				0B6B11941A467CFD00555337 /* NSFNanoObjectProtocol.h */,
+				0B6B11951A467CFD00555337 /* NSFNanoPredicate.h */,
+				0B6B11961A467CFD00555337 /* NSFNanoPredicate.m */,
+				0B6B11971A467CFD00555337 /* NSFNanoSearch.h */,
+				0B6B11981A467CFD00555337 /* NSFNanoSearch.m */,
+				0B6B11991A467CFD00555337 /* NSFNanoSortDescriptor.h */,
+				0B6B119A1A467CFD00555337 /* NSFNanoSortDescriptor.m */,
+				0B6B119B1A467CFD00555337 /* NSFNanoStore.h */,
+				0B6B119C1A467CFD00555337 /* NSFNanoStore.m */,
+				0B6B119D1A467CFD00555337 /* NSFNanoStoreQueue.h */,
+				0B6B119E1A467CFD00555337 /* NSFNanoStoreQueue.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0BC002EA1A45232000C8F383 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0BC002EB1A45232E00C8F383 /* DismissSegue.h */,
+				0BC002EC1A45232E00C8F383 /* DismissSegue.m */,
+				0BC002EE1A45239400C8F383 /* Constants.h */,
+				0BC002EF1A45239400C8F383 /* Constants.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0BC0032A1A45296600C8F383 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0BC0032B1A45297100C8F383 /* HolidayHelper.h */,
+				0BC0032C1A45297100C8F383 /* HolidayHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF13AAD9CD10BE87C493377D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44185D19B9C6CF064782555A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE6EC8DCF4EAFD7FEBA24B60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				642C53160B38E3D1D20DB832 /* Pods.debug.xcconfig */,
+				41657D0B579AF7A4D51D45BE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B598F771A41A09100252CB0 /* SyncDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B598F9B1A41A09100252CB0 /* Build configuration list for PBXNativeTarget "SyncDemo" */;
+			buildPhases = (
+				0A094F7EF30DA5D0F6833078 /* Check Pods Manifest.lock */,
+				0B598F741A41A09100252CB0 /* Sources */,
+				0B598F751A41A09100252CB0 /* Frameworks */,
+				0B598F761A41A09100252CB0 /* Resources */,
+				D441A1B173C8C30360A892F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncDemo;
+			productName = SyncDemo;
+			productReference = 0B598F781A41A09100252CB0 /* SyncDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B598F901A41A09100252CB0 /* SyncDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B598F9E1A41A09100252CB0 /* Build configuration list for PBXNativeTarget "SyncDemoTests" */;
+			buildPhases = (
+				0B598F8D1A41A09100252CB0 /* Sources */,
+				0B598F8E1A41A09100252CB0 /* Frameworks */,
+				0B598F8F1A41A09100252CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B598F931A41A09100252CB0 /* PBXTargetDependency */,
+			);
+			name = SyncDemoTests;
+			productName = SyncDemoTests;
+			productReference = 0B598F911A41A09100252CB0 /* SyncDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B598F701A41A09100252CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ishi Systems";
+				TargetAttributes = {
+					0B598F771A41A09100252CB0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0B598F901A41A09100252CB0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0B598F771A41A09100252CB0;
+					};
+				};
+			};
+			buildConfigurationList = 0B598F731A41A09100252CB0 /* Build configuration list for PBXProject "SyncDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B598F6F1A41A09100252CB0;
+			productRefGroup = 0B598F791A41A09100252CB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B598F771A41A09100252CB0 /* SyncDemo */,
+				0B598F901A41A09100252CB0 /* SyncDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B598F761A41A09100252CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B598F871A41A09100252CB0 /* Main.storyboard in Resources */,
+				0B598F8C1A41A09100252CB0 /* LaunchScreen.xib in Resources */,
+				0B6B11AD1A467CFD00555337 /* LICENSE in Resources */,
+				0B598F891A41A09100252CB0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B598F8F1A41A09100252CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A094F7EF30DA5D0F6833078 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D441A1B173C8C30360A892F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B598F741A41A09100252CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6B11A81A467CFD00555337 /* NSFNanoPredicate.m in Sources */,
+				0B6B11A91A467CFD00555337 /* NSFNanoSearch.m in Sources */,
+				0B598FE41A41A69A00252CB0 /* AddHolidayViewController.m in Sources */,
+				0B6B11A21A467CFD00555337 /* NSFNanoResult.m in Sources */,
+				0B6B11A41A467CFD00555337 /* NSFNanoBag.m in Sources */,
+				0B6B11AB1A467CFD00555337 /* NSFNanoStore.m in Sources */,
+				0BC0032D1A45297100C8F383 /* HolidayHelper.m in Sources */,
+				0B6B11A71A467CFD00555337 /* NSFNanoObject.m in Sources */,
+				0B6B11A31A467CFD00555337 /* NSFOrderedDictionary.m in Sources */,
+				0BC002ED1A45232E00C8F383 /* DismissSegue.m in Sources */,
+				0B598FE11A41A3C500252CB0 /* HolidaysViewController.m in Sources */,
+				0BC002F01A45239400C8F383 /* Constants.m in Sources */,
+				0B6B11A61A467CFD00555337 /* NSFNanoGlobals.m in Sources */,
+				0B6B11AC1A467CFD00555337 /* NSFNanoStoreQueue.m in Sources */,
+				0B598FEB1A41B07900252CB0 /* HolidayTableViewCell.m in Sources */,
+				0B6B11AA1A467CFD00555337 /* NSFNanoSortDescriptor.m in Sources */,
+				0B598F811A41A09100252CB0 /* AppDelegate.m in Sources */,
+				0B6B11A11A467CFD00555337 /* NSFNanoEngine.m in Sources */,
+				0B6B11A51A467CFD00555337 /* NSFNanoExpression.m in Sources */,
+				0B598FA41A41A25C00252CB0 /* Holiday.m in Sources */,
+				0B6B11AE1A467CFD00555337 /* README.md in Sources */,
+				0B598F7E1A41A09100252CB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B598F8D1A41A09100252CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B598F981A41A09100252CB0 /* SyncDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B598F931A41A09100252CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B598F771A41A09100252CB0 /* SyncDemo */;
+			targetProxy = 0B598F921A41A09100252CB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B598F851A41A09100252CB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B598F861A41A09100252CB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B598F8A1A41A09100252CB0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B598F8B1A41A09100252CB0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B598F991A41A09100252CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B598F9A1A41A09100252CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B598F9C1A41A09100252CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642C53160B38E3D1D20DB832 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SyncDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B598F9D1A41A09100252CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41657D0B579AF7A4D51D45BE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SyncDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B598F9F1A41A09100252CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyncDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyncDemo.app/SyncDemo";
+			};
+			name = Debug;
+		};
+		0B598FA01A41A09100252CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyncDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyncDemo.app/SyncDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B598F731A41A09100252CB0 /* Build configuration list for PBXProject "SyncDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B598F991A41A09100252CB0 /* Debug */,
+				0B598F9A1A41A09100252CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B598F9B1A41A09100252CB0 /* Build configuration list for PBXNativeTarget "SyncDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B598F9C1A41A09100252CB0 /* Debug */,
+				0B598F9D1A41A09100252CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B598F9E1A41A09100252CB0 /* Build configuration list for PBXNativeTarget "SyncDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B598F9F1A41A09100252CB0 /* Debug */,
+				0B598FA01A41A09100252CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B598F701A41A09100252CB0 /* Project object */;
+}
